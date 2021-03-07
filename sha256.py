@@ -17,7 +17,7 @@ def H(text1,text2):
     id = text1
     y = text2
     x = 0 
-    nb_calcule = 0
+    nb_calcule = 1
 
     while True :
         
