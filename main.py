@@ -17,7 +17,7 @@ def H(text1,text2):
     id = text1
     y = text2
     x = 0 
-    nb_calcule = 0
+    nb_calcule = 1
 
     while True :
         
@@ -27,6 +27,7 @@ def H(text1,text2):
         if h <= y :
             print('\n la valeur de sha1(id||x)  : ',hacher(id + str(x)))
             print('\n le nombre de calcules est :',nb_calcule)
+            print('\n la valeur de X utilisé :', hacher(str(x)))
             return x
         
         x += 1
