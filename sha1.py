@@ -14,6 +14,7 @@ def hacher(text):
     return hexV
 
 def H(text1,text2):
+    
     id = text1
     y = text2
     x = 0 
