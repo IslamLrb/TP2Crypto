@@ -25,7 +25,7 @@ def H(text1,text2):
         h = hacher( id + str(x) )
         
         if h <= y :
-            print('\n la valeur de sha1(id||x)  : ',hacher(id + str(x)))
+            print('\n la valeur de sha256(id||x)  : ',hacher(id + str(x)))
             print('\n le nombre de calcules est :',nb_calcule)
             return x
         
