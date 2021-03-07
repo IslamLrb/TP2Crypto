@@ -2,14 +2,14 @@
 import hashlib
 
 def hacher(text):
-    #encoder la chaine de caractères
-    encoded_str = text.encode()
+     #encoder la chaine de caractères
+    texte_coder = text.encode()
 
-    #creation de l'objet sha1
-    hash_obj = hashlib.sha1(encoded_str)
+    #creation de l'objet sha256
+    objet_hacher = hashlib.sha1(texte_coder)
 
     #conversion de l'objet hacher en hexadécimal
-    hexV = hash_obj.hexdigest()
+    hexV = objet_hacher.hexdigest()
 
     return hexV
 
